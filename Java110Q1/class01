@@ -1,0 +1,49 @@
+class CWin
+{
+   int width;
+   int height;
+   int lenght;
+   int XYZ;
+
+   void setW(int w)  
+   {
+        width=w;
+   }
+   void setH(int h)  
+   {
+        height=h;
+   }
+   void setL(int l)
+   {
+        lenght=l;
+   }
+   void setX(int x)
+   {
+        XYZ=x;
+   }
+   void show()
+   {
+      System.out.println("半徑"+height);
+      System.out.println("球型體積="+4/3.*3.14159*height*height*height);
+      System.out.println("長"+width+",寬"+lenght+",高"+XYZ);
+      System.out.printf("立方體表面積="+((width*lenght)*2+(XYZ*lenght)*2+(width*XYZ)*2));
+   }
+
+public class class01
+{
+   public static void main(String args[])
+   {
+        CWin cw=new CWin();
+        cw.setL(5);
+        cw.setW(4);
+        cw.setH(10);
+        cw.setX(6);
+        cw.show();
+   }
+}
+}
+//
+//半徑10
+//球型體積=4188.786666666666
+//長4,寬5,高6
+//立方體表面積=148
