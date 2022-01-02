@@ -1,5 +1,5 @@
 package Java09;
-public class class07
+public class Class07
 {
 	static void power(int x,int n)
 	{
