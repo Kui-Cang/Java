@@ -1,3 +1,4 @@
+package Java12;
 public class Class15
  {
  public static void main(String args[])
