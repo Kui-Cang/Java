@@ -1,3 +1,4 @@
+package Java14;
 import java.util.Scanner;
  import java.lang.String;
  public class Class02
@@ -7,9 +8,9 @@ import java.util.Scanner;
  Scanner scn=new Scanner(System.in);
  String str;
 
- System.out.print("¿é¤J¦r¦ê:");
+ System.out.print("Â¿Ã©Â¤JÂ¦rÂ¦Ãª:");
  str=scn.nextLine();
 
- System.out.println("Âà´«¦¨¤j¼g: "+str.toUpperCase());
+ System.out.println("Ã‚Ã Â´Â«Â¦Â¨Â¤jÂ¼g: "+str.toUpperCase());
  }
  }
