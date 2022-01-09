@@ -1,3 +1,4 @@
+package Java14;
 import java.io.*;
 
 public class Class10 {
@@ -52,14 +53,14 @@ public class Class10 {
 		boolean flag = true;
 
 		for (i = 1; (i < a.length) && (flag == true); i++) {
-			flag = false; // ±N flat ³]¬° flase
+			flag = false; // å°‡ flat è¨­ç‚º flase
 			for (j = 0; j < (a.length - i); j++)
 
 				if (a[j] > a[j + 1]) {
-					temp = a[j]; // ¹ï´«°}¦C¤ºªº­È
+					temp = a[j]; // å°æ›é™£åˆ—å…§çš„å€¼
 					a[j] = a[j + 1];
 					a[j + 1] = temp;
-					flag = true; // ¹ï½Õ«á±N flag ³]¬° true
+					flag = true; // å°èª¿å¾Œå°‡ flag è¨­ç‚º true
 				}
 		}
 		return;
