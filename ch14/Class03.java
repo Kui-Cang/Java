@@ -1,3 +1,4 @@
+package Java14;
 import java.io.BufferedReader;
 import java.io.InputStreamReader;
 import java.io.IOException;
@@ -9,7 +10,7 @@ public class Class03 {
 		String str;
 		buf = new BufferedReader(new InputStreamReader(System.in));
 
-		System.out.print("¿é¤J¤@­Ó¾ã¼Æ: ");
+		System.out.print("Â¿Ã©Â¤JÂ¤@Â­Ã“Â¾Ã£Â¼Ã†: ");
 		str = buf.readLine();
 		n = Integer.parseInt(str);
 
