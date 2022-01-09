@@ -1,3 +1,4 @@
+package Java15;
 class Add implements Runnable {
 	private int n;
 	private int sum = 0;
