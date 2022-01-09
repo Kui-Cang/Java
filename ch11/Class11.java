@@ -1,3 +1,4 @@
+package Java11;
 interface Data {
 	public void showData();
 }
@@ -10,11 +11,11 @@ interface Test {
 }
 
 class CStu implements Data, Test {
-	protected String id; // ¾Ç¸¹
-	protected String name; // ©m¦W
-	protected int mid; // ´Á¤¤¦Ò¦¨ÁZ
-	protected int finl; // ´Á¥½¦Ò¦¨ÁZ
-	protected int common; // ¥­®É¦¨ÁZ
+	protected String id; // å­¸è™Ÿ
+	protected String name; // å§“å
+	protected int mid; // æœŸä¸­è€ƒæˆç¸¾
+	protected int finl; // æœŸæœ«è€ƒæˆç¸¾
+	protected int common; // å¹³æ™‚æˆç¸¾
 
 	public CStu(String s1, String s2, int m, int f, int c) {
 		id = s1;
@@ -30,15 +31,15 @@ class CStu implements Data, Test {
 	}
 
 	public void showScore() {
-		System.out.println("´Á¤¤¦Ò¦¨ÁZ:" + mid);
-		System.out.println("´Á¥½¦Ò¦¨ÁZ:" + finl);
-		System.out.println("¥­®É¦¨ÁZ:" + common);
-		System.out.println("¾Ç´Á¦¨ÁZ:" + calcu());
+		System.out.println("æœŸä¸­è€ƒæˆç¸¾:" + mid);
+		System.out.println("æœŸæœ«è€ƒæˆç¸¾:" + finl);
+		System.out.println("å¹³æ™‚æˆç¸¾:" + common);
+		System.out.println("å­¸æœŸæˆç¸¾:" + calcu());
 	}
 
 	public void showData() {
-		System.out.println("¾Ç¸¹:" + id);
-		System.out.println("©m¦W:" + name);
+		System.out.println("å­¸è™Ÿ:" + id);
+		System.out.println("å§“å:" + name);
 	}
 
 	public double calcu() {
