@@ -1,4 +1,4 @@
-package pack9.sub1; // ±N CSphere Ãş§O¯Ç¤J pack9.sub1 ¤¤
+package Java12;
  public class Class09
  {
  final static double PI=3.14;
@@ -19,8 +19,8 @@ package pack9.sub1; // ±N CSphere Ãş§O¯Ç¤J pack9.sub1 ¤¤
  System.out.println(", volume="+vol);
  }
  }
- // CTrapezoid.java, ¦¹ÀÉ®×¸m©ó pack9\sub2 ¸ê®Æ§¨¤º
- package pack9.sub2; // ±N CTrapezoid Ãş§O¯Ç¤J pack9.sub2 ¤¤
+ // CTrapezoid.java, æ­¤æª”æ¡ˆç½®æ–¼ pack9\sub2 è³‡æ–™å¤¾å…§
+ package pack9.sub2; // å°‡ CTrapezoid é¡åˆ¥ç´å…¥ pack9.sub2 ä¸­
  public class CTrapezoid
  {
  private int upper;
@@ -42,10 +42,10 @@ package pack9.sub1; // ±N CSphere Ãş§O¯Ç¤J pack9.sub1 ¤¤
  System.out.println(", area="+area);
  }
  }
- // hw12_9.java,¦¹ÀÉ®×¸m©ó pack9 ¸ê®Æ§¨¤º
- package pack9; // ±N app12_8 Ãş§O¯Ç¤J package pack9 ·í¤¤
- import pack9.sub1.CSphere;// ¸ü¤J pack9.sub1 ¸Ìªº CSphere Ãş§O
- import pack9.sub2.CTrapezoid;// ¸ü¤Jpack9.sub2 ¸ÌªºCTrapezoidÃş§O
+ // hw12_9.java,æ­¤æª”æ¡ˆç½®æ–¼ pack9 è³‡æ–™å¤¾å…§
+ package pack9; // å°‡ app12_8 é¡åˆ¥ç´å…¥ package pack9 ç•¶ä¸­
+ import pack9.sub1.CSphere;// è¼‰å…¥ pack9.sub1 è£¡çš„ CSphere é¡åˆ¥
+ import pack9.sub2.CTrapezoid;// è¼‰å…¥pack9.sub2 è£¡çš„CTrapezoidé¡åˆ¥
 
  public class Class09
  {
