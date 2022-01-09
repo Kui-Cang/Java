@@ -1,4 +1,4 @@
-package pack6.subpack1.subsubpack;
+package Java12;
  public class CStyle
  {
  public int style;
@@ -9,7 +9,7 @@ package pack6.subpack1.subsubpack;
  System.out.println("style"+style);
  }
  }
- // CCircle.java, ¦¹ÀÉ®×¸m©ó pack6\subpack1 ¸ê®Æ§¨¤º
+ // CCircle.java, æ­¤æª”æ¡ˆç½®æ–¼ pack6\subpack1 è³‡æ–™å¤¾å…§
  package pack6.subpack1;
  public class CCircle
  {
@@ -17,7 +17,7 @@ package pack6.subpack1.subsubpack;
  {
  System.out.println("show() method of class CCircle called");
  }
- } // CRectangle.java, ¦¹ÀÉ®×¸m©ó pack6\subpack2 ¸ê®Æ§¨¤º
+ } // CRectangle.java, æ­¤æª”æ¡ˆç½®æ–¼ pack6\subpack2 è³‡æ–™å¤¾å…§
  package pack6.subpack2;
  public class CRectangle
  {
@@ -26,7 +26,7 @@ package pack6.subpack1.subsubpack;
  System.out.println("show() method of class CRectangle called");
  }
  }
- // hw12_8.java, ¦¹ÀÉ®×¸m©ó pack6 ¸ê®Æ§¨¤º
+ // hw12_8.java, æ­¤æª”æ¡ˆç½®æ–¼ pack6 è³‡æ–™å¤¾å…§
 
 
 
