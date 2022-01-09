@@ -1,3 +1,4 @@
+package Java15;
 class CTest implements Runnable {
 	private String id;
 
