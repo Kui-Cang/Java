@@ -1,3 +1,4 @@
+package Java15;
 class PrePaid extends Thread {
 	private static int sum = 200;
 
@@ -17,7 +18,7 @@ class PrePaid extends Thread {
 		}
 		if (tmp > 0) {
 			sum = tmp;
-			System.out.println("�q�ܶO" + n + "��,�l�B��" + sum + "��");
+			System.out.println("³q¸Ü¶O" + n + "¤¸,¾lÃB¬°" + sum + "¤¸");
 		}
 	}
 }
